@@ -4,7 +4,7 @@ Código siguiendo el curso de Vue JS - Guía Completa: https://knowmadmood.udemy
 
 Detalles:
 - Usa Vue 3, pero con javascript
-- Usa Pinia 3 pero con options API
+- Usa Pinia 3 ( con options API en themeStore y con composition API en authStore )
 - Usa Firebase 11.4
 - Las comprobaciones de formulario se hacen de forma manual al intentar submitir, creando un array de mensajes de error para mostrarlo a continuación.
 
@@ -21,6 +21,7 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 Renombra firebaseConfig.template.js por firebaseConfig.js. Y añade la configuración de tu aplicación (que deberías tambien añadirle una base de datos firebase).
 En mi caso en la ruta lo encuentro en https://console.firebase.google.com/project/vue-fundamental-shop/settings/general/web:MzE2NDQzMmQtOTE0YS00NGFhLWFjZDktZDQ1MzQ5NDc4NmJj?hl=es-419
+También debe tener activada el proveedor de email, para poder registrarse y logarse con email, en mi caso lo encuentro en https://console.firebase.google.com/project/vue-fundamental-shop/authentication/providers?hl=es-419 . Tras registrar un email, hay que ir al firebase y modificar el valor del campo "rol" poniendole admin
 
 ```sh
 npm install
