@@ -6,6 +6,7 @@ Detalles:
 - Usa Vue 3, pero con javascript
 - Usa Pinia 3 ( con options API en themeStore y con composition API en authStore )
 - Usa Firebase 11.4
+- Usa Cloudinary para subir imágenes
 - Las comprobaciones de formulario se hacen de forma manual al intentar submitir, creando un array de mensajes de error para mostrarlo a continuación.
 
 
